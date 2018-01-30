@@ -26,8 +26,7 @@ require 'Secretaria.php';
   echo "$g1->usuario" . PHP_EOL;
   echo "$g1->senha" . PHP_EOL;
 
-  $g1->AumentaSalario();
-  echo "$g1->salario" . PHP_EOL;
+  echo "Bonificação: " . $g1->Bonificacao() . PHP_EOL;
 
     echo "-----------------" . PHP_EOL;
 
@@ -41,7 +40,8 @@ require 'Secretaria.php';
     echo "$t1->ramal" . PHP_EOL;
     echo "$t1->salario" . PHP_EOL;
 
-    $t1->AumentaSalario();
-    echo "$t1->salario" . PHP_EOL;
+    echo "Bonificação" .   $t1->Bonificacao() . PHP_EOL;
+
+    echo "-----------------" . PHP_EOL;
 
 ?>

@@ -5,9 +5,9 @@ require_once 'Funcionario.php';
     public $usuario;
     public $senha;
 
-    function AumentaSalario(){
+    function Bonificacao(){
 
-      $this->salario *= 1.6;
+      return $this->salario * 0.6;
     }
   }
  ?>

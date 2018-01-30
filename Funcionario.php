@@ -3,9 +3,9 @@
     public $nome;
     public $salario;
 
-    function AumentaSalario(){
+    function Bonificacao(){
 
-      $this->salario *= 1.1;
+      return $this->salario * 0.1;
     }
   }
  ?>
