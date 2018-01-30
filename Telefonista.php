@@ -1,5 +1,5 @@
 <?php
-  require 'Funcionario.php';
+  require_once 'Funcionario.php';
 
   class Telefonista extends Funcionario
   {
